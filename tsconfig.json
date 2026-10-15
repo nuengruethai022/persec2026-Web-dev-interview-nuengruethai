@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2022",                          /* กำหนดเวอร์ชัน JavaScript ที่จะคอมไพล์ออกไป */
+    "module": "commonjs",                        /* ใช้โมดูลระบบ CommonJS สำหรับ Jest */
+    "lib": ["es2022"],                           /* เปิดใช้ Library ฟีเจอร์ของ JS เวอร์ชันใหม่ๆ */
+    "strict": true,                              /* เปิดโหมดตรวจสอบ Type อย่างเข้มงวด */
+    "esModuleInterop": true,                     /* 👈 บรรทัดนี้แก้คำเตือน: ช่วยให้ดึงโค้ด CJS และ ESM ผสมกันได้อย่างราบรื่น */
+    "skipLibCheck": true,                        /* ข้ามการตรวจ Type ใน node_modules เพื่อให้รันเร็วขึ้น */
+    "forceConsistentCasingInFileNames": true     /* ตรวจสอบเรื่องตัวพิมพ์เล็ก-ใหญ่ในชื่อไฟล์ */
+  },
+  "include": ["src/**/*", "__tests__/**/*"]      /* ระบุโฟลเดอร์ที่ต้องการให้ TypeScript ทำงาน */
+}
