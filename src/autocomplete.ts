@@ -1,6 +1,5 @@
 export function autocomplete(search: string, items: string[], maxResult: number): string[] {
     if (!search) return [];
-
     const lowerSearch = search.toLowerCase();
 
     // กรองและคำนวณตำแหน่งที่คำค้นหาปรากฏในแต่ละข้อความ
